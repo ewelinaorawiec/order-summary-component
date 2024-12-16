@@ -60,13 +60,15 @@ p{
   background-color: white;
 }
 
-.h1{
+h1{
+  margin:0;
   font-size: 24px;
   font-weight: 900;
   padding: 0px 20px 0px 20px;
   text-align: center;
 }
-.h3{
+
+.content-text{
   font-weight: 500;
   line-height: 24px;
   color: #7e7e7e;
@@ -88,7 +90,7 @@ p{
   width: 40px;
 }
 
-.h2-titles{
+.offer-wrapper{
   display:flex;
   flex-direction: column;
   flex-grow:2;
